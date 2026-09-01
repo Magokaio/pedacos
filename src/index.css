@@ -1,0 +1,5 @@
+@import 'tailwindcss';
+
+/* Ativa o modo escuro via classe `.dark` na tag <html> (controlado pelo ThemeProvider),
+   em vez de depender apenas da preferência do sistema operacional. */
+@custom-variant dark (&:where(.dark, .dark *));
